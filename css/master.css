@@ -1,0 +1,55 @@
+
+
+/* test colors  */
+/* ---------------------------------------------------------------------------*/
+.red {
+  width: 20rem;
+  height: 20rem;
+  background-image: url('../images/circles-01.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 40rem;
+  position: absolute;
+  overflow: hidden;
+  max-width: 100%; 
+}
+
+.yellow {
+  width: 20rem;
+  height: 20rem;
+  background-image: url('../images/circles-02.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 40rem;
+  position: absolute;
+  left: 20rem;
+  overflow: hidden;
+  max-width: 100%; 
+}
+
+.blue {
+  height: 20rem;
+  width: 20rem;
+  background-image: url('../images/circles-03.svg');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 40rem;
+  position: absolute;
+  top: 20rem;
+  overflow: hidden;
+  max-width: 100%; 
+}
+
+.green {
+  height: 20rem;
+  width: 20rem;
+  background-image: url('../images/circles-04.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 40rem;
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+  overflow: hidden;
+  max-width: 100%; 
+}
