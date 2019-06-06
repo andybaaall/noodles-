@@ -2,54 +2,76 @@
 
 /* test colors  */
 /* ---------------------------------------------------------------------------*/
+
+
+.noodle-container {
+
+}
+
 .red {
-  width: 20rem;
-  height: 20rem;
+  width: 10rem;
+  height: 10rem;
   background-image: url('../images/circles-01.svg');
   background-repeat: no-repeat;
   background-position: top left;
-  background-size: 40rem;
+  background-size: 20rem;
   position: absolute;
   overflow: hidden;
-  max-width: 100%; 
+  max-width: 100%;
+  z-index: 2;
 }
 
 .yellow {
-  width: 20rem;
-  height: 20rem;
+  width: 10rem;
+  height: 10rem;
   background-image: url('../images/circles-02.svg');
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 40rem;
+  background-size: 20rem;
   position: absolute;
-  left: 20rem;
+  left: 11rem;
   overflow: hidden;
-  max-width: 100%; 
+  max-width: 10rem;
+  z-index: 2;
 }
 
 .blue {
+  height: 10rem;
+  width: 10rem;
+  background-image: url('../images/circles-03.svg');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 20rem;
+  position: absolute;
+  top: 10rem;
+  overflow: hidden;
+  max-width: 10rem;
+  z-index: 2;
+}
+
+
+.green {
+  height: 10rem;
+  width: 10rem;
+  background-image: url('../images/circles-04.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 20rem;
+  position: absolute;
+  top: 10rem;
+  left: 11rem;
+  overflow: hidden;
+  max-width: 100%;
+  z-index: 2;
+}
+
+.underlay {
   height: 20rem;
   width: 20rem;
   background-image: url('../images/circles-03.svg');
   background-repeat: no-repeat;
-  background-position: bottom left;
-  background-size: 40rem;
+  background-size: 20rem;
   position: absolute;
-  top: 20rem;
-  overflow: hidden;
-  max-width: 100%; 
-}
-
-.green {
-  height: 20rem;
-  width: 20rem;
-  background-image: url('../images/circles-04.svg');
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 40rem;
-  position: absolute;
-  top: 20rem;
   left: 20rem;
-  overflow: hidden;
-  max-width: 100%; 
+  z-index: 1;
 }
